@@ -122,3 +122,5 @@ systemctl enable zabbix-agent
 Посмотрим что в логах:
 ![zabbix](https://github.com/incid3nt/zabbix/blob/main/img/putty_lwQRbXJw5s.png)
 И видим что все ок!
+Графики и все что хочешь есть:
+![zabbix](https://github.com/incid3nt/zabbix/blob/main/img/chrome_yZLovFBBPj.png)
