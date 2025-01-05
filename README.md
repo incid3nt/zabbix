@@ -28,3 +28,12 @@ apt update
 ```
 sudo apt install postgresql
 ```
+проверим установился ли :
+```
+oleg@lvm:~$ systemctl status postgresql
+● postgresql.service - PostgreSQL RDBMS
+     Loaded: loaded (/usr/lib/systemd/system/postgresql.service; enabled; prese>
+     Active: active (exited) since Sun 2025-01-05 11:41:51 UTC; 1min 17s ago
+   Main PID: 13403 (code=exited, status=0/SUCCESS)
+        CPU: 3ms
+```
