@@ -37,3 +37,8 @@ oleg@lvm:~$ systemctl status postgresql
    Main PID: 13403 (code=exited, status=0/SUCCESS)
         CPU: 3ms
 ```
+Установим репозиторий Zabbix:
+```
+wget https://repo.zabbix.com/zabbix/7.0/debian/pool/main/z/zabbix-release/zabbix-release_latest_7.0+debian12_all.deb
+dpkg -i zabbix-release_latest_7.0+debian12_all.deb
+apt update
