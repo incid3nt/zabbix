@@ -76,6 +76,7 @@ DBPassword=password
 ---
 
 Задание 2
+
 Установите Zabbix Agent на два хоста.
 
 Процесс выполнения
