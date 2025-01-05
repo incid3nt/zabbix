@@ -105,4 +105,3 @@ sed -i 's/Server=127.0.0.1/Server=192.168.1.27/g' /etc/zabbix/zabbix-agentd.conf
 systemctl restart zabbix-agent
 systemctl enable zabbix-agent
 ```
-и 
