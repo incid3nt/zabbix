@@ -91,3 +91,18 @@ DBPassword=password
 2. Приложите в файл README.md скриншот лога zabbix agent, где видно, что он работает с сервером
 3. Приложите в файл README.md скриншот раздела Monitoring > Latest data для обоих хостов, где видны поступающие от агентов данные.
 4. Приложите в файл README.md текст использованных команд в GitHub
+
+2.2 Для установки zabbix-agent введем команду:
+```
+apt install zabbix-agent
+```
+Вводим команду:
+```
+sed -i 's/Server=127.0.0.1/Server=192.168.1.27/g' /etc/zabbix/zabbix-agentd.conf
+```
+там где 192.168.1.27 указываем ип адрес zabbix сервера и перезапускаем агента и его так же нужно добавить в автозагрузку:
+```
+systemctl restart zabbix-agent
+systemctl enable zabbix-agent
+```
+и 
