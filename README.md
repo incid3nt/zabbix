@@ -126,3 +126,12 @@ systemctl enable zabbix-agent
 Графики и все что хочешь есть:
 ![zabbix](https://github.com/incid3nt/zabbix/blob/main/img/chrome_yZLovFBBPj.png)
 ![zabbix](https://github.com/incid3nt/zabbix/blob/main/img/chrome_V2Dxa4rj0p.png)
+
+---
+
+Задание 3
+
+Установите Zabbix Agent на Windows (компьютер) и подключите его к серверу Zabbix.
+
+Требования к результаты
+1. Приложите в файл README.md скриншот раздела Latest Data, где видно свободное место на диске C:
