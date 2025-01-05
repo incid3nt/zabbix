@@ -24,3 +24,6 @@
 ```
 apt update
 ```
+```
+установим postgresql
+```
