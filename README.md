@@ -116,3 +116,9 @@ sed -i 's/Server=127.0.0.1/Server=192.168.1.27/g' /etc/zabbix/zabbix-agentd.conf
 systemctl restart zabbix-agent
 systemctl enable zabbix-agent
 ```
+Снова попытаемся забрать данные с хоста и видим:
+![zabbix](https://github.com/incid3nt/zabbix/blob/main/img/chrome_8uwRhE7rlN.png)
+Что все устройства доступны и готовы отдавать нам данные!
+Посмотрим что в логах:
+![zabbix](https://github.com/incid3nt/zabbix/blob/main/img/putty_lwQRbXJw5s.png)
+И видим что все ок!
