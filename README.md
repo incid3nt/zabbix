@@ -67,3 +67,5 @@ DBPassword=password
  systemctl enable zabbix-server zabbix-agent apache2
 ```
 Пора идти смотреть в веб интерфейс заббикс.
+Похоже что все ок!
+![zabbix](https://github.com/incid3nt/zabbix/blob/main/img/chrome_lIEaG6KcVT.png)
