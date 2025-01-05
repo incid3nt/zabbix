@@ -135,3 +135,4 @@ systemctl enable zabbix-agent
 
 Требования к результаты
 1. Приложите в файл README.md скриншот раздела Latest Data, где видно свободное место на диске C:
+![zabbix](https://github.com/incid3nt/zabbix/blob/main/img/chrome_tX1mCbKKum.png)
