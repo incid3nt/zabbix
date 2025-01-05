@@ -69,3 +69,6 @@ DBPassword=password
 Пора идти смотреть в веб интерфейс заббикс.
 Похоже что все ок!
 ![zabbix](https://github.com/incid3nt/zabbix/blob/main/img/chrome_lIEaG6KcVT.png)
+![zabbix](https://github.com/incid3nt/zabbix/blob/main/img/chrome_Qx5GQN7os2.png)
+![zabbix](https://github.com/incid3nt/zabbix/blob/main/img/chrome_1aRlnI60pS.png)
+![zabbix](https://github.com/incid3nt/zabbix/blob/main/img/chrome_G6jja8yrRv.png)
