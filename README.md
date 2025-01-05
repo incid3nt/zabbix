@@ -95,6 +95,15 @@ DBPassword=password
 2.2 Для установки zabbix-agent введем команду:
 ```
 apt install zabbix-agent
+добавляем хост для мониторинга в забикс:
+![zabbix](https://github.com/incid3nt/zabbix/blob/main/img/chrome_DCqgy6OOHL.png)
+и видим что Доступность отсутствует, идем смотреть в логи:
+```
+tail -f /var/log/zabbix/zabbix_agentd.log
+```
+![zabbix](https://github.com/incid3nt/zabbix/blob/main/img/putty_5Wmpz3QW0c.png)
+он не хочет отвечать zabbix серверу, тогда выполняем следующее:
+
 ```
 Вводим команду:
 ```
