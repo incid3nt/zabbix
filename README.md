@@ -42,3 +42,8 @@ oleg@lvm:~$ systemctl status postgresql
 wget https://repo.zabbix.com/zabbix/7.0/debian/pool/main/z/zabbix-release/zabbix-release_latest_7.0+debian12_all.deb
 dpkg -i zabbix-release_latest_7.0+debian12_all.deb
 apt update
+```
+Установим Zabbix сервер, веб-интерфейс и агент
+```
+apt install zabbix-server-pgsql zabbix-frontend-php php8.2-pgsql zabbix-apache-conf zabbix-sql-scripts zabbix-agent
+```
