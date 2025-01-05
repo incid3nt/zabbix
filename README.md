@@ -47,3 +47,8 @@ apt update
 ```
 apt install zabbix-server-pgsql zabbix-frontend-php php8.2-pgsql zabbix-apache-conf zabbix-sql-scripts zabbix-agent
 ```
+Далее мы создаем пользователя в базе данных "zabbix" под пользователем postgres и создаем бд "zabbix"
+```
+sudo -u postgres createuser --pwprompt zabbix
+sudo -u postgres createdb -O zabbix zabbix
+```
