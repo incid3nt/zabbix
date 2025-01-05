@@ -24,6 +24,7 @@
 ```
 apt update
 ```
-```
 установим postgresql
+```
+sudo apt install postgresql
 ```
