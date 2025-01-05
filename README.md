@@ -52,3 +52,18 @@ apt install zabbix-server-pgsql zabbix-frontend-php php8.2-pgsql zabbix-apache-c
 sudo -u postgres createuser --pwprompt zabbix
 sudo -u postgres createdb -O zabbix zabbix
 ```
+На хосте Zabbix сервера импортируйте начальную схему и данные:
+```
+zcat /usr/share/zabbix-sql-scripts/postgresql/server.sql.gz | sudo -u zabbix psql zabbix
+```
+Настроим базу данных для Zabbix сервера
+Отредактируем файл /etc/zabbix/zabbix_server.conf внесем пароль:
+```
+DBPassword=password
+```
+Запустим процессы Zabbix сервера и агента и настроим их запуск при загрузке ОС.
+```
+ systemctl restart zabbix-server zabbix-agent apache2
+ systemctl enable zabbix-server zabbix-agent apache2
+```
+Пора идти смотреть в веб интерфейс заббикс.
